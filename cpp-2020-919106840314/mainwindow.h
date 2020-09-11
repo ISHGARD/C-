@@ -18,11 +18,13 @@ public:
     ~MainWindow();
 
     void trans();
-    void start_count();
+    QString start_count();
     bool judge_line1();
     bool judge_line2();
     double decisi( int a , int b);
-    void count();
+    void ans_save(double a);
+    void CD(double a ,double b);
+    int LCM(double a, double b);
 
 private:
     Ui::MainWindow *ui;
